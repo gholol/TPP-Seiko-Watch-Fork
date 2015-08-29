@@ -517,7 +517,7 @@ body#top #subBox #cdbtn {
 </div>
 <p id='demo'></p>
 <script>
-  var motherfuckingreleasedate = new Date(Date.UTC(2015,7,31,12));
+  var motherfuckingreleasedate = new Date(Date.UTC(2015,8,1,4));
 
   var _second = 1000;
   var _minute = _second * 60;
@@ -601,7 +601,7 @@ function get_content() {
   var text = '<div><div id="tgt_date">2015/09/01 03:00:00</div><div id="now_date">2015/05/26 20:16:30</div></div>';
 
   var todaysmotherfuckingdate = new Date();
-  var motherfuckingreleasedate = new Date(Date.UTC(2015,7,31,12));
+  var motherfuckingreleasedate = new Date(Date.UTC(2015,8,1,4));
 
   //text = text.replace(/:pathlv:/g, pathlv);
   //text = text.replace(/:lang:/g, langval);
@@ -657,7 +657,7 @@ function getshowtimes() //return [?,?,?,?].
       rets[ii] = tmp;
       showtime -= rets[ii] * buff;
     }
-    return rets;
+    return rets;x
   }
 
 var drawer = function() {
@@ -668,7 +668,7 @@ var drawer = function() {
     var num2 = Math.floor(showtimes[ii] / 10);
     var num1 = showtimes[ii] % 10;
     var todaysmotherfuckingdate = new Date();
-    var motherfuckingreleasedate = new Date(Date.UTC(2015,7,31,12));
+    var motherfuckingreleasedate = new Date(Date.UTC(2015,8,1,04));
     var dif_time = motherfuckingreleasedate - todaysmotherfuckingdate;
     var days = Math.floor(dif_time / _day);
 
